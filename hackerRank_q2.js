@@ -25,3 +25,7 @@ function findMinMax(arr){
 arr=[1,3,5,7,9]
 
 findMinMax(arr)
+
+// The big O of this algorithm will be O(1) to O(log(n)) for the initial sort function
+// Then each loop will be an O(n)
+// So the maximum Big O where n is the size of the array (or the space complexity) will be O(n^(2)*log(n)) 
